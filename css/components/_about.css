@@ -1,0 +1,65 @@
+.about {
+    margin-bottom: 188px;
+}
+
+.wrapper {
+}
+
+.wrapper-about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__left {
+}
+
+.about__title-mobile{
+    display: none;
+}
+
+.about__title {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    margin-bottom: 23px;
+}
+
+.about__text{
+    max-width: 635px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    margin-bottom: 40px;
+}
+
+.about__data {
+    display: flex;
+    gap: 120px;
+    text-align: center;
+}
+
+.data-pupils {
+}
+
+.data__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #2A3246;
+}
+
+.data__name {
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #8F95A5;
+}
+
+.data-teachers {
+}
+
+.about__right {
+}

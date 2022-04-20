@@ -1,0 +1,91 @@
+.pricing {
+    margin-bottom: 250px;
+}
+
+.wrapper {
+}
+
+.pricing__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    text-align: center;
+    margin-bottom: 83px;
+}
+
+.wrapper-pricing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 55px;
+}
+
+.pricing__card {
+    height: 100%;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing__img{
+    max-height: 258px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.pricing__name{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: #263238;
+    margin-bottom: 19px;
+    text-align: center;
+}
+
+.pricing .flex-content{
+    display: flex;
+    -moz-flex-box: 1;
+    -webkit-flex-box:1;
+    -ms-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing__text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    margin-bottom: 29px;
+    text-align: center;
+}
+
+.pricing__price {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 45px;
+    padding: 0 24px;
+    height: 45px;
+    background: #EEEEEE;
+    border-radius: 5px;
+    color: #263238;
+    max-width: 260px;
+    margin: 0 auto;
+}
+
+.light{
+    color: #546269;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.card-live {
+}
+
+.card-tuition {
+}
