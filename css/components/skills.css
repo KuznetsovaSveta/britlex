@@ -78,11 +78,21 @@
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
-    padding: 17px 63px;
+    padding: 17px 60px;
     background: #263238;
     border-radius: 5px;
     margin-left: 20px;
     max-width: 230px;
+    transition: 0.2s ease;
+    border: 2px solid transparent;
+}
+.card__link:hover{
+    border: 2px solid #263238;
+    color: #263238;
+    background: transparent;
+}
+.card__link:active{
+    transform: scale(0.97);
 }
 
 .card-listening {

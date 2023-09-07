@@ -10,9 +10,6 @@
     justify-content: space-between;
 }
 
-.about__left {
-}
-
 .about__title-mobile{
     display: none;
 }
@@ -39,9 +36,6 @@
     text-align: center;
 }
 
-.data-pupils {
-}
-
 .data__title {
     font-weight: 600;
     font-size: 48px;
@@ -52,14 +46,5 @@
 .data__name {
     font-size: 20px;
     line-height: 30px;
-    /* identical to box height */
-
-
     color: #8F95A5;
-}
-
-.data-teachers {
-}
-
-.about__right {
 }

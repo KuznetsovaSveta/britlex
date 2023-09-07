@@ -1,20 +1,15 @@
-@import "_normalize.css";
-@import "_fonts.css";
-/*@import "_variables.css";
-@import "_vendor.css";*/
-@import "_global.css";
-/*@import "_overall.css";*/
+@import "normalize.css";
+@import "fonts.css";
+@import "global.css";
 
 
+@import "components/header.css";
+@import "components/learn.css";
+@import "components/skills.css";
+@import "components/about.css";
+@import "components/pricing.css";
+@import "components/contact.css";
+@import "components/footer.css";
 
 
-@import "./components/_header.css";
-@import "./components/_learn.css";
-@import "./components/_skills.css";
-@import "./components/_about.css";
-@import "./components/_pricing.css";
-@import "./components/_contact.css";
-@import "./components/_footer.css";
-
-
-@import "_media.css";
+@import "media.css";

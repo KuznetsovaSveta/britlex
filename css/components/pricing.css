@@ -1,10 +1,6 @@
 .pricing {
     margin-bottom: 250px;
 }
-
-.wrapper {
-}
-
 .pricing__title {
     font-weight: 600;
     font-size: 48px;
@@ -82,10 +78,4 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
-}
-
-.card-live {
-}
-
-.card-tuition {
 }

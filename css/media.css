@@ -112,7 +112,6 @@
     }
 
     .card-listening .card__link{
-        /*margin: 0;*/
         margin-left: 20px;
     }
 
@@ -271,7 +270,9 @@
     .header__burger{
         display: block;
     }
-
+    body.noscroll{
+        overflow: hidden;
+    }
     .header__nav{
         position: fixed;
         height: 100%;
@@ -282,6 +283,7 @@
         z-index: 1000;
         padding: 80px 60px 60px 60px;
         transform: translateX(-100%);
+        transition: 0.3s ease;
     }
 
     .header__nav-active{
@@ -295,8 +297,8 @@
     .header__item{
         width: 100%;
         margin-right: 0;
-        font-size: 40px;
-        line-height: 50px;
+        font-size: 36px;
+        line-height: 40px;
         margin-bottom: 30px;
         text-align: center;
     }
@@ -304,7 +306,6 @@
     .header__item:last-child{
         margin-bottom: 0;
     }
-
 
     .header__nav-close{
         width: 40px;
@@ -318,10 +319,11 @@
     .header__nav-close-line{
         display: block;
         width: 100%;
-        height: 2px;
+        height: 3px;
         background-color: #263238;
         position: absolute;
         top: 50%;
+        border-radius: 1px;
     }
 
     .header__nav-close-line:first-child{
@@ -712,11 +714,9 @@
     }
 
     .about__right{
-        margin: 0 auto;
+        margin: 24px auto 24px;
         max-width: 352px;
         max-height: 352px;
-        margin-top: 22px;
-        margin-bottom: 25px;
     }
 
     .about__data{
@@ -764,9 +764,6 @@
         display: block;
         margin: 0 auto;
     }
-
-
-
 
     /*contact*/
     .contact{
@@ -907,6 +904,8 @@
 
     .skills__title{
         font-size: 24px;
+        line-height: 40px;
+        margin-bottom: 24px;
     }
 
     .wrapper-skills {
@@ -939,11 +938,12 @@
 
     /*about*/
     .about{
-        margin-bottom: 50px;
+        margin-bottom: 34px;
     }
 
     .about__title-mobile{
         font-size: 24px;
+        line-height: 40px;
     }
 
     .about__right{
@@ -953,7 +953,7 @@
     .about__text{
         font-size: 13px;
         line-height: 20px;
-        margin-bottom: -13px;
+        margin-bottom: 16px;
     }
 
     .about__data{
@@ -961,26 +961,28 @@
     }
 
     .data__title{
-        margin-bottom: -20px;
+        margin-bottom: 0;
+        line-height: 45px;
     }
 
     .data__name{
-        margin-bottom: 30px;
+        margin-bottom: 16px;
     }
 
 
     /*pricing*/
     .pricing{
-        margin-bottom: 90px;
+        margin-bottom: 50px;
     }
 
     .pricing__title{
         font-size: 24px;
+        line-height: 40px;
+        margin-bottom: 24px;
     }
-
-    .img-self {
+    .wrapper-pricing{
+        grid-row-gap: 60px;
     }
-
     .pricing__name {
         font-size: 18px;
         line-height: 28px;
@@ -1007,12 +1009,13 @@
 
     .contact__title{
         font-size: 24px;
+        line-height: 40px;
     }
 
     .contact__left {
         max-width: 253px;
         max-height: 228px;
-        margin-top: 47px;
+        margin-top: 24px;
     }
 
     .contact__text{
@@ -1034,13 +1037,6 @@
         margin: 0;
         border-radius: 5px;
     }
-
-
-    /*footer*/
-    .footer{
-
-    }
-
     .footer__logo{
         max-width: 71px;
         max-height: 36px;
@@ -1049,7 +1045,6 @@
 
     .wrapper-footer{
         flex-direction: column;
-        /*justify-content: center;*/
         align-items: center;
     }
 

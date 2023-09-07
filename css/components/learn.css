@@ -7,9 +7,6 @@
     justify-content: space-between;
 }
 
-.learn__left {
-}
-
 .learn__title {
     padding-top: 46px;
     font-weight: 600;
@@ -48,13 +45,21 @@
 
 .learn__button {
     display: inline-block;
+    white-space: nowrap;
     font-size: 36px;
     line-height: 54px;
     color: #FFFFFF;
-    padding: 32px 117px;
+    padding: 24px 110px;
     background: #263238;
     border-radius: 15px;
+    transition: 0.2s background-color, border ease;
+    border: 2px solid transparent;
 }
-
-.learn__right {
+.learn__button:hover{
+    border: 2px solid #263238;
+    color: #263238;
+    background: transparent;
+}
+.learn__button:active{
+    transform: scale(0.97);
 }
