@@ -8,7 +8,6 @@
     gsap.from('.skills', {
         scrollTrigger:{
             trigger: '.wrapper-learn',
-            markers: true,
             start: 'top top',
             scrub: true,
         },
@@ -18,7 +17,6 @@
     gsap.from('.about', {
         scrollTrigger:{
             trigger: '.skills',
-            markers: true,
             start: 'top top',
             scrub: true,
         },
@@ -28,7 +26,6 @@
     gsap.from('.about__item', {
         scrollTrigger:{
             trigger: '.skills',
-            markers: true,
             start: '60% top',
             scrub: true,
         },
@@ -38,7 +35,6 @@
     gsap.from('.pricing', {
         scrollTrigger:{
             trigger: '.about',
-            markers: true,
             start: 'top top',
             scrub: true,
         },
@@ -48,7 +44,6 @@
     gsap.from('.contact', {
         scrollTrigger:{
             trigger: '.pricing',
-            markers: true,
             start: 'top top',
             scrub: true,
         },
@@ -58,7 +53,6 @@
     gsap.from('.footer', {
         scrollTrigger:{
             trigger: '.pricing',
-            markers: true,
             start: '30% top',
             scrub: true,
         },
